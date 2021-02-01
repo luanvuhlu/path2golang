@@ -7,7 +7,7 @@ import (
 
 func main() {
 	cards := newDeck()
-	shuffleError := cards.shuffle(11)
+	shuffleError := cards.shuffle(9)
 	if shuffleError != nil {
 		fmt.Println(shuffleError)
 		os.Exit(-1)
